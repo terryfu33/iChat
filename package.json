@@ -25,5 +25,9 @@
   
   "dependencies": {
     "cross-env": "^7.0.2"
+  },
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.4.10"
   }
 }
