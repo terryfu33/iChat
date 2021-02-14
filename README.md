@@ -1,3 +1,5 @@
+
+install dependancies: npm install
 Create .env file in the server directory with the following:
 
 ```
