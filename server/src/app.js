@@ -32,7 +32,7 @@ if (process.env.NODE_ENV === 'production') {
     res.sendFile(join(__dirname, '..', '..', 'client', 'build', 'index.html'))
   );
 }
-
+ 
 io.use(async (socket, next) => {
   const token = socket.request.headers.cookie.match(/(?<=token=)(.*?)(?=(;|$))/)[0];
 
