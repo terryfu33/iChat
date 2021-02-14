@@ -1,1 +1,1 @@
-web: node server/src/app.js
+web: npm run server && npm run client
