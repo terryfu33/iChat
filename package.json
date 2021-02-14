@@ -12,7 +12,6 @@
     "heroku-postbuild": "NODE_ENV=production cd client && npm run build",
     "install": "npm run init",
     "kill": "fuser -k 4000/tcp",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "cacheDirectories": [
     "node_modules",
