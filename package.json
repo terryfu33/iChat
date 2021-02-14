@@ -6,7 +6,7 @@
   "scripts": {
     "server": "cd server && npm run dev",
     "client": "cd client && npm start",
-    "build": "react-scripts build",
+    "build": "cd client && npm run build && npm run start && cd ../server && npm run start",
     "init": "cd client && npm i && cd ../server && npm i",
     "test": "cd server && npm t",
     "start": "cross-env NODE_ENV=production node ./server/src",
